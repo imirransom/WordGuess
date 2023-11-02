@@ -1,5 +1,4 @@
 package com.github.zipcodewilmington;
-import java.util.Scanner;
 
 /**
  * @author xt0fer
@@ -9,6 +8,8 @@ import java.util.Scanner;
 public class Hangman {
     public static void main(String[] args) {
         System.out.println("Let's play a word guessing game!");
+
+        System.out.println(WordGuess.wordsArray());
     }
 
 }
