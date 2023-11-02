@@ -7,15 +7,9 @@ import java.util.Scanner;
  * @date 5/27/21 11:02 AM
  */
 public class Hangman {
-    public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Hello, contestant. would you like to start the game?");
-        System.out.println("Please enter \"yes\" or \"no\"");
-        String gameStart = scanner.nextLine();
-
-        while (gameStart == "yes"){
-            System.out.println("Let's begin");
-        }
+    public static void main(String[] args) {
+        System.out.println("Let's play a word guessing game!");
     }
+
 }
 
