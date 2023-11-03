@@ -8,25 +8,33 @@ public class WordGuess {
     }
 
 
-    String name;
-    int randomNumebr;
+    private String name;
+    private int random;
     String[] words = {"bird", "lion", "frog", "duck"};
     Character[] guesses = {'_', '_', '_', '_'};
-    public WordGuess(String name, int randomNumber) {
-        this.name = name;
+//    public WordGuess(String name, int random) {
+//        this.name = name;
+//
+//        this.random = (int) (Math.random() * 4) + 4;
+//    }
 
-        this.randomNumebr = (int) (Math.random() * 4) + 4;
-    }
-    public static String getName(String name){
-        return name;
-    }
-     public static int getRandomNumber() {
-        return randomNumber;
+    public  int getRandomNumber() {
+        return random;
      }
 
-    public static void setName(){
+    public void setName(String name){
         this.name = name;
     }
+    public  String getName(){
+        return name;
+    }
+
+    public void setRandomNumber(int random){
+        this.random = random;
+    }
+
+
+
 
 //    public static String randomNumber(){
 //
